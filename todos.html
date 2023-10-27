@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="todos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <a href="mein.html" class="goHome">Home</a>
+        <h1>Todos</h1>
+
+
+        <button id="addTodo" style="background-color: rgb(43, 216, 0); width: 60px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Add Todo</button>
+
+         <div class="todos"></div>
+        
+         
+    </div>
+
+    <div class="my-modal">
+        <div class="modal-title">
+            <h2>Add Todo</h2>
+        </div>
+        <div class="my-modal-body">
+            <label for="">Todo Title</label>
+            <input id="title" class="form-control" style="display: block; width: 80%;height: 30px; border-radius: 5px;" type="text">
+            <textarea id=""></textarea>
+        </div>
+        <div class="modal-footer">
+            <button id="save-todo" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Save todo</button>
+            <button id="close" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Close</button>
+        </div>
+    </div>
+
+
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="todos.js"></script>
+</body>
+</html>

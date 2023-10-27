@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: url(https://top-fon.com/uploads/posts/2023-01/thumbs/1674716953_top-fon-com-p-fon-dlya-prezentatsii-obshchestvo-82.jpg);
+    /* width: 100%; */
+}
+
+form{
+    max-width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+    gap: 8px;
+    box-shadow: 5px 5px 5px 0;
+
+}
+
+form .plName{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 12px;
+    color: rgb(0, 114, 114);
+    cursor: pointer;
+}
+
+.btn:disabled{
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
